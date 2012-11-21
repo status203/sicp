@@ -1,6 +1,6 @@
 (ns sicp.section-1-1-4)
 
-;; Let's go straight to (defn... rather than (def square [x] (...
+;; Let's go straight to (defn... rather than (def square (fn [x] (...
 ;; (but not sure that adding a doc string would be in the right
 ;; spirit at the moment
 (defn square [x] (* x x))

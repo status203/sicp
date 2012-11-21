@@ -10,6 +10,7 @@
 (defn good-enough? [guess x]
   (< (Math/abs (- (* guess guess) x)) 0.001))
 
+; Using loop instead of sqrt-iter and recur for the TCO.
 (defn sqrt [x]
   (loop [guess 1.0 x x]
     (if (good-enough? guess x)
